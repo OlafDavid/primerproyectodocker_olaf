@@ -9,7 +9,7 @@ env:
   AWS_REGION: us-east-2
   ECR_REPOSITORY: primerproyectodocker_olaf
   ECS_CLUSTER: cluster-fargate-1erproyectodocker
-  ECS_SERVICE: primerproyectodocker_olaf
+  ECS_SERVICE: service-1erproyectodocker
 
 jobs:
   build-and-push:
